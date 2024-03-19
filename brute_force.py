@@ -20,7 +20,7 @@ signal.signal(signal.SIGINT, def_handler)
 
 def get_arguments():
 
-    parser = argparse.ArgumentParser(description='Username enumeration via subtly different responses')
+    parser = argparse.ArgumentParser(description='Brute Force - Panel Login')
     parser.add_argument("-t", "--target",dest="target", required=True, help="Victim panel login url (Ex: -t www.example.com/login)")
     parser.add_argument("-u", "--user",dest="username", required=True, help="username's panel login")
     parser.add_argument("-pf", "--passwordsfile",dest="passwordsfile", required=True, help="File contain passwords")
