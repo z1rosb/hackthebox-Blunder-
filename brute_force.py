@@ -39,6 +39,8 @@ def brute_force(s, target, username, passwordsfile):
     p1 = log.progress("Brute Force")
     p1.status("Iniciando Fuerza Bruta")
 
+    time.sleep(2)
+    
     for password in passwords:
 
         p1.status("Brute Forceando la password")
